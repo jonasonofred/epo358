@@ -1,0 +1,52 @@
+:root {
+  --primary: #be9217;
+  --position-teachers: #ed2947;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.teachers-profileContainer {
+  width: 100px;
+  height: 200px;
+  max-width: 150px;
+  /* max-height: 140px; */
+  text-align: center;
+}
+
+.teachers-profileImg {
+  border: 3px solid var(--primary);
+  width: inherit;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.teachers-profileImg img {
+  width: inherit;
+}
+
+.teachers-profileContainer p:nth-child(3) {
+  color: var(--position-teachers);
+}
+
+.teachers-profileContainer p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
