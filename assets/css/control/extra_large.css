@@ -1,0 +1,99 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+}
+
+
+
+
+
+/*---------- Calendar & Document----------*/
+
+.calendarDocument {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.calendarContainer {
+  width: 80%;
+  max-width: 100rem;
+}
+
+.documentsContainer {
+  height: 70rem;
+  width: 63rem;
+}
+
+.documentsContainer div {
+  height: 50rem;
+  overflow-y: scroll;
+  border-bottom: .1rem solid var(--primary);
+
+}
+
+.documentsContainer div p a:hover {
+ color: var(--primary);
+}
+
+
+
+
+
+/*---------- BGeneral ----------*/
+
+.bgeneralContainer>h2 {
+  font-size: 2.4rem;
+}
+
+
+
+
+
+/*---------- Scholarships ----------*/
+
+.scholarships__centerArea {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scholarships__objetive,
+.scholarships__requirements {
+  width: 53rem;
+}
+
+.scholarships button:hover {
+  background-color: rgba(7, 72, 52, 0.9);
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*---------- MIGE ----------*/
+
+.buttonArea--imgContainer {
+  text-align: center;
+}
+
+.buttonArea--imgContainer figure {
+  display: block;
+}
+
+.buttonArea--buttons {
+  justify-content: center;
+  gap: 20rem;
+}
+
+.buttonArea--buttons button:hover {
+  background-color: rgba(118, 43, 133, 0.9);
+  transform: scale(1.1);
+}
+
+
+
+
+

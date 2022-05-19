@@ -1,0 +1,33 @@
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+.contact__title {
+  align-self: flex-start;
+}
+
+
+
+
+
+/*---------- Map ----------*/
+
+.contact__mapContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__mapContainer .contact--map {
+  height: 50rem;
+  max-width: 74rem;
+  align-self: center;
+}
+
+
+
+
+

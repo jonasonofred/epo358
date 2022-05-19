@@ -1,0 +1,95 @@
+.container {
+  padding: 5rem;
+}
+
+
+
+
+
+/*---------- Pregnancy ----------*/
+
+.pregnancy__documents--items p a:hover {
+  color: var(--primary);
+}
+
+
+
+
+
+/*---------- Addictions ----------*/
+
+.addictions__header {
+  display: flex;
+  align-items: center;
+}
+
+.pregnancy header h2 img {
+  width: 30%;
+}
+
+.addictions__header figure {
+  display: block;
+  position: relative;
+  left: -5rem;
+}
+
+.addictions__header img {
+  width: 5rem;
+}
+
+.addictions__videoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.addictions__video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.addictions__video iframe {
+  width: 80%;
+  height: 30rem;
+}
+
+.addictions__textDescription {
+  align-self: center;
+  max-width: 50rem;
+}
+
+
+
+
+
+/*---------- Construye-T ----------*/
+
+.constrT__video {
+  display: flex;
+  justify-content: center;
+}
+
+.constrT__video iframe {
+  width: 80%;
+  height: 30rem;
+}
+
+.constrT__videoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.constrT__videoDescription {
+  align-self: center;
+  max-width: 50rem;
+}
+
+.constrT__videoDescription button:hover {
+  transform: scale(1.1);
+  background-color: var(--secondary);
+}
+
+
+
+
+

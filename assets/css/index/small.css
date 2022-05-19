@@ -1,0 +1,218 @@
+@import '/assets/css/main.css';
+
+
+
+
+
+/*---------- Container & General ----------*/
+
+.container {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+/*---------- Hero ----------*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+  gap: 6rem;
+}
+
+.hero__tittle--image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero__title figcaption {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.hero__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.hero__socialMediaOne {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 22.0rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.hero__socialMediaOne--logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__socialMediaOne img {
+  width: 4rem;
+}
+
+.hero__logo img {
+  width: 13.5rem;
+}
+
+.hero__socialMediaTwo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.hero__socialMediaTwo img {
+  width: 7rem;
+}
+
+
+
+
+
+/*---------- Cards ----------*/
+
+.cards {
+  margin-bottom: 10rem;
+  font-size: var(--sizeParagraphs);
+}
+
+.cards__section {
+  min-height: 24rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards__section section {
+  line-height: var(--paragraphs);
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.cards__section section h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.cards__section button {
+  background-color: var(--primary);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: var(--sizeParagraphs);
+  align-self: center;
+}
+
+.cards__section button a {
+  color: var(--white);
+}
+
+
+
+
+
+/*---------- Video Intro ----------*/
+
+.videoIntro {
+  margin-bottom: 10rem;
+}
+
+.videoIntro__container {
+  margin-bottom: 2.5rem;
+}
+
+.videoIntro__container video {
+  width: 100%;
+}
+
+.videoIntro section h3 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: var(--subtitle);
+}
+
+.videoIntro section p {
+  line-height: var(--paragraphs);
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 14.5rem;
+  background: url('/assets/images/panoramic.JPG') center/cover no-repeat;
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/*---------- Reason ----------*/
+
+.reason__container {
+  margin-bottom: 10rem;
+}
+
+.reason__container img {
+  display: none;
+}
+
+.reason {
+  border-bottom: 2px solid var(--primary);
+}
+
+.reason h4 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: var(--subtitle);
+}
+
+.reason p {
+  line-height: var(--paragraphs);
+  margin-bottom: 2rem;
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- Icons Plus ----------*/
+
+.iconsPlus {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: var(--sizeParagraphs);
+  margin-bottom: 20rem;
+}
+
+.iconsPlus .icon {
+  width: 6.8rem;
+  border-color: white;
+}
+
+
+
+
+

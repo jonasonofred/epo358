@@ -1,0 +1,43 @@
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Pregnancy ----------*/
+
+.pregnancy article {
+  margin-bottom: 10rem;
+}
+
+.pregnancy__imageText {
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pregnancy__imageText img {
+  width: 15rem;
+}
+
+
+
+
+
+/*---------- Addictions ----------*/
+
+.addictions__textImage {
+  margin-bottom: 5rem;
+}
+
+.addictions__video {
+  margin-bottom: 5rem;
+}
+
+
+
+
+

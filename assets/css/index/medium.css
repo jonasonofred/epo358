@@ -1,0 +1,29 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Hero ----------*/
+
+.hero__title figcaption {
+  font-size: var(--sizeParagraphs);
+}
+
+.hero__socialMediaOne,
+.hero__socialMediaTwo {
+  font-size: var(--sizeParagraphs);
+}
+
+.hero__logo img {
+  width: 24rem;
+}
+
+
+
+
+

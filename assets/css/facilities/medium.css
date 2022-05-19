@@ -1,0 +1,47 @@
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Facilities ----------*/
+
+.facilities {
+  margin: 0 auto 10rem;
+  max-width: 74rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilities__images {
+  padding: 2rem;
+  box-shadow: .1rem .1rem .5rem .1rem black;
+}
+
+.facilities__images img {
+  box-shadow: none;
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  justify-content: start;
+  padding-left: 4rem;
+}
+
+.panoramic__text {
+  font-size: 1.4rem;
+  width: 30rem;
+}
+
+
+
+
+

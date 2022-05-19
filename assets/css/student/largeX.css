@@ -1,0 +1,54 @@
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+}
+
+
+
+
+
+/*---------- Competencies ----------*/
+.competencies__cards {
+  background: url('/assets/logos/logo.png') center/contain no-repeat;
+  max-width: none;
+  max-width: 166rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9rem;
+}
+
+.competencies__cards--card {
+  margin: 0;
+  min-height: 49rem;
+  max-width: 35rem;
+  padding: 6rem 2rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: .1rem .1rem 1rem .1rem black;
+  transition: transform 300ms ease-in-out;
+}
+
+.competencies__cards--card:hover {
+  transform: translateY(-3rem);
+}
+
+
+
+
+
+/*---------- Profile ----------*/
+
+.profile__conceptsContainer {
+  justify-content: space-around;
+}
+
+.profile__conceptsLeft,
+.profile__conceptsRight {
+  max-width: 40rem;
+}
+
+
+
+
+

@@ -1,0 +1,159 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+}
+
+
+
+
+
+main {
+  max-width: none;
+  margin: 0;
+}
+
+
+
+
+
+/*---------- About ----------*/
+
+.about__meaning div {
+  width: 100%;
+}
+
+
+
+
+
+/*---------- Beginning ----------*/
+
+.beginning {
+  margin-bottom: 10rem;
+}
+
+.beginning__cards {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.beginning__cards figure {
+  transition: transform 300ms ease-in-out;
+}
+
+
+.beginning__cards figure:hover {
+  transform: translateY(-1rem) scale(1.1);
+}
+
+
+
+
+
+/*---------- Values ----------*/
+
+.values__misionVision {
+  justify-content: space-around;
+  gap: 10rem;
+}
+
+.values__misionVision section {
+  width: 50rem;
+}
+
+.values__itemsContainer figure {
+  transition: transform 300ms ease-in-out;
+}
+
+.values__itemsContainer figure img {
+  transition: transform 400ms ease-out;
+  transform-style: preserve-3d;
+}
+
+.values__itemsContainer figure:hover {
+  transform: translateY(-1rem);
+} 
+
+.values__itemsContainer figure:hover img {
+  transform: rotateY(160deg);
+}
+
+
+
+
+
+/*---------- Logo Meaning ----------*/
+
+.logoMeaning__logoContainer img {
+  transition: transform 400ms ease-in-out;
+}
+
+.logoMeaning__logoContainer img:hover {
+  transform: translateY(-1rem);
+}
+
+.logoMeaning__symbols {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.symbol__book,
+.symbol__transform {
+  width: 40%;
+  min-height: 30rem;
+  max-width: 60rem;
+  border: .1rem solid var(--primary);
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 2rem 2rem .5rem var(--primary);
+}
+
+.symbol__book figure,
+.symbol__transform figure {
+  margin-bottom: 1rem;
+}
+
+.symbol__transform {
+  margin: 0;
+  transition: transform 100ms ease-out;
+}
+
+.symbol__transform:hover {
+  transform: translateX(2rem);
+}
+
+.symbol__transform img {
+  width: 7rem;
+}
+
+.symbol__book img {
+  width: 10rem;
+}
+
+.symbol__book {
+  transition: transform 100ms ease-out;
+}
+
+.symbol__book:hover {
+  transform: translateX(-2rem);
+}
+
+
+
+
+
+/*---------- Wolf Code ----------*/
+
+.wolfCode {
+  max-width: 77rem;
+  margin: 0 auto 30rem;
+}
+
+
+
+
+

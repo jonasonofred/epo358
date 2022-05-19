@@ -1,0 +1,205 @@
+@import '../main.css';
+
+
+
+
+
+/*---------- Container & General ----------*/
+
+.container {
+  padding: 1rem;
+  margin: 0 auto;
+  font-size: var(--sizeParagraphs);
+}
+
+hr {
+  border: .1rem solid gray;
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/*---------- Calendar & Document----------*/
+
+.calendarDocument {
+  margin-bottom: 10rem;
+}
+
+.calendarContainer {
+  margin-bottom: 10rem;
+}
+
+.calendarContainer img {
+  width: 100%;
+}
+
+.documentsContainer--title {
+  margin-bottom: 5rem;
+  text-align: center;
+  color: var(--primary);
+  font-weight: bold;
+  border-bottom: .1rem solid var(--primary);
+  padding-bottom: 1rem;
+}
+
+.documentsContainer p:not( .documentsContainer--title ) {
+  margin-bottom: 3rem;
+}
+
+.documentsContainer svg {
+  vertical-align: middle;
+}
+
+.documentsContainer p a {
+  color: var(--black);
+}
+
+
+
+
+
+/*---------- BGeneral ----------*/
+
+.bgeneralContainer > h2 {
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.bgeneralContainer img {
+  width: 100%;
+}
+
+
+
+
+
+/*---------- Scholarships ----------*/
+
+.scholarships {
+  line-height: var(--paragraphs);
+  margin-bottom: 12rem; 
+}
+
+.scholarships__logo {
+  margin-bottom: 5rem;
+}
+
+.scholarships__logo img {
+  width: 100%;
+}
+
+.sholarships__description {
+  margin-bottom: 9rem;
+}
+
+.scholarships__objetive {
+  margin-bottom: 7rem;
+}
+
+.scholarships__objetive p:first-child,
+.scholarships__requirements p:first-child {
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.scholarships__requirements {
+  margin-bottom: 7rem;
+}
+
+.scholarships__requirements ul {
+  list-style-position: inside;
+}
+
+.scholarships__requirements ul li {
+  margin-bottom: 2rem;
+}
+
+.scholarships button {
+  padding: 1rem;
+  display: block;
+  margin: 0 auto 7rem;
+  background-color: #074834;
+  border-radius: 10px;
+}
+
+.scholarships button a {
+  color: var(--white);
+}
+
+.scholarships .logoContainer img {
+  width: 100%;
+}
+
+
+
+
+
+/*---------- MIGE ----------*/
+
+.migeContainer {
+  line-height: var(--paragraphs);
+  margin-bottom: 14rem;
+}
+
+.migeContainer__aboutMigeOne,
+.migeContainer__aboutMigeTwo {
+  margin-bottom: 7.5rem;
+}
+
+.migeContainer__aboutMigeOne p:first-child,
+.migeContainer__aboutMigeTwo p:first-child {
+  color: #762b85;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.mige__logo img {
+  width: 100%;
+}
+
+.buttonArea--buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.migeContainer__buttonArea figure {
+  display: none;
+}
+
+.migeContainer__buttonArea button {
+  padding: 1rem;  
+  background-color: #762b85;
+  border-radius: 10px;
+}
+
+.migeContainer button a {
+  color: var(--white);
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 12.5rem;
+}
+
+
+
+
+

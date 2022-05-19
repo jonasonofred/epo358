@@ -1,0 +1,124 @@
+@import '../main.css';
+
+
+
+
+
+/*---------- Container ----------*/
+
+.container {
+  padding: 1rem;
+  font-size: var(--sizeParagraphs);
+}
+
+hr {
+  border: .1rem solid gray;
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/*---------- Academician Articles ----------*/
+
+.academician article {
+  display: flex;
+  flex-direction: column;
+  line-height: var(--paragraphs);
+  margin-bottom: 10rem;
+}
+
+.academician article header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary);
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.academician article .academician--title {
+  font-size: 1.4rem;
+}
+
+.academician article h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: .3rem solid var(--primary);
+}
+
+.academician article figure {
+  width: 20%;
+  max-width: 14.3rem;
+  
+}
+
+.academician article img {
+  width: 100%;
+}
+
+.academician .academician__description {
+  margin-bottom: 5rem;
+}
+
+.academician article button {
+  background-color: var(--primary);
+  border-radius: 1rem;
+  position: relative;
+  align-self: center;
+  padding: 1rem;
+}
+
+.academician article button a {
+  color: #ffffff;
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- Academician Documents ----------*/
+
+.academician__documents {
+  display: flex;
+  justify-content: center;
+}
+
+.academician__documents aside {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.academician__documents aside h3 {
+  width: fit-content;
+  align-self: center;
+  font-size: var(--subtitle);
+  color: var(--primary);
+  padding-bottom: 1rem;
+  border-bottom: .3rem solid var(--primary);
+  margin-bottom: 5rem;
+}
+
+.academician__documents aside a {
+  color: var(--black);
+}
+
+.academician__documentsOne,
+.academician__documentsTwo {
+  margin-bottom: 10rem;
+}
+
+.academician__documents--icon {
+  vertical-align: middle;
+  width: 3rem;
+  fill: #e31717;
+}
+
+
+
+
+

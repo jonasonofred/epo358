@@ -1,0 +1,73 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Calendar & Document----------*/
+
+.documentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.documentsContainer--title {
+  margin: 0;
+}
+
+
+
+
+
+/*---------- BGeneral ----------*/
+
+.bgeneralContainer h2::before {
+  content: '- ';
+}
+
+.bgeneralContainer h2::after {
+  content: ' -';
+}
+
+
+
+
+
+/*---------- Scholarships ----------*/
+
+.scholarships__logo {
+  text-align: center;
+}
+
+.scholarships__logo img {
+  width: 70%;
+}
+
+
+
+
+
+/*---------- MIGE ----------*/
+
+.migeContainer {
+  margin-bottom: 20rem;
+}
+
+.mige__logo {
+  text-align: center;
+}
+
+.mige__logo img {
+  width: 50%;
+}
+
+
+
+
+

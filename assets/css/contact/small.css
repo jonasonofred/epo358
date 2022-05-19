@@ -1,0 +1,107 @@
+@import '../main.css';
+
+
+
+
+
+/*---------- Container ----------*/
+
+.container {
+  padding: 1rem;
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__title {
+  color: var(--primary);
+  font-size: var(--subtitle);
+  margin-bottom: 8rem;
+}
+
+
+
+
+
+/*---------- Contact Numbers ----------*/
+
+.contact__numbers {
+  margin-bottom: 9rem;
+}
+
+.contact__numbers h3 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.contact__numbersContainer {
+  min-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__numbersContainer div p {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+/*---------- Contact Email ----------*/
+
+.contact__emails {
+  margin-bottom: 10rem;
+}
+
+.contact__emails h3 {
+  margin-bottom: 5rem;
+}
+
+.contact__emails p {
+  text-align: center;
+}
+
+
+
+
+
+/*---------- Map ----------*/
+
+.contact__mapContainer {
+  width: 100%;
+}
+
+.contact__mapContainer h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 2.7rem;
+}
+
+.contact--titleMap {
+  color: var(--primary);
+}
+
+.contact__mapContainer .contact--map {
+  width: 100%;
+  height: 30rem;
+  border: .5rem solid var(--primary);
+}
+
+.contact__mapContainer .contact--map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+
+
+
+
+/*---------- Academician Articles ----------*/
+
+.academician {
+  width: 80rem;
+}
+
+
+
+
+
+/*---------- Academician Documents ----------*/
+
+.academician__asideContainer {
+  display: block;
+}
+
+.academician__asideContainer hr {
+  height: 0;
+}
+
+.academician__documents aside a:hover {
+  color: var(--primary);
+}
+
+.academician article button:hover {
+  transform: scale(1.1);
+  background-color: var(--secondary);
+}
+
+
+
+
+

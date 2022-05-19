@@ -1,0 +1,22 @@
+/*---------- Facilities ----------*/
+
+.facilities__images {
+  
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 14.5rem;
+}
+
+
+
+
+

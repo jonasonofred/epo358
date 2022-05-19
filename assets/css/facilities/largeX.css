@@ -1,0 +1,101 @@
+.container {
+  padding: 5rem;
+}
+
+hr {
+  margin-bottom: 20rem;
+}
+
+
+
+
+
+/*---------- Facilities ----------*/
+
+.facilities__description--firstImage,
+.facilities__description section {
+  margin: 0;
+}
+
+.facilities {
+  margin-bottom: 20rem;
+  max-width: 130rem;
+}
+
+.facilities__description {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.facilities__description h2 {
+  display: none;
+}
+
+.facilities__description--firstImage img {
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__description--firstImage img:hover {
+  transform: scale(1.1);
+}
+
+.facilities__description section {
+  max-width: 62rem;
+}
+
+.facilities__description section h2,
+.facilities__description--logo {
+  display: block;
+}
+
+.facilities__description section h2 {
+  text-align: start;
+}
+
+.facilities__description--logo img {
+  width: 14.5rem;
+}
+
+.facilities__images {
+  width: 100%;
+  justify-content: space-between;
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__images:hover {
+  transform: translateY(-1rem);
+}
+
+.facilities__images picture {
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__images picture:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 30rem;
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.panoramic__text {
+  width: 55rem;
+  height: 20rem;
+  text-align: center;
+}
+
+
+
+
+

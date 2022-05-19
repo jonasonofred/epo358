@@ -1,0 +1,51 @@
+/*---------- Competencies ----------*/
+
+.competencies__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.competencies__title figure {
+  display: inline;
+  position: absolute;
+  left: -1em;
+}
+
+.competencies__title img {
+  width: 5rem;
+}
+
+.competencies__cards {
+  max-width: 62rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+/*---------- Medals ----------*/
+
+.medals {
+  margin-bottom: 12rem;
+}
+
+
+
+
+
+/*---------- Chess ----------*/
+
+.medalsChess {
+  gap: 10rem;
+}
+
+.medalsChess .medals {
+  margin: 0;
+}
+
+
+
+
+

@@ -1,0 +1,145 @@
+@import '../main.css';
+
+
+
+
+
+/*---------- Container ----------*/
+
+.container {
+  padding: 1rem;
+  font-size: var(--sizeParagraphs);
+  margin: 0 auto;
+}
+
+
+
+
+
+/*---------- Competencies ----------*/
+
+.competencies {
+  margin-bottom: 12rem;
+}
+
+.competencies__title figure {
+  display: none;
+}
+
+.competencies__title {
+  margin-bottom: 8rem;
+  color: var(--secondary);
+}
+
+.competencies__title h2 {
+  text-align: center;
+}
+
+.competencies__cards--card {
+  border-bottom: .2rem solid var(--primary);
+  padding-bottom: 1.8rem;
+  margin-bottom: 10rem;
+}
+
+.competencies__cards--card h3 {
+  color: var(--primary);
+  font-size: var(--subtitle);
+  margin-bottom: 6rem;
+}
+
+.competencies__cards--card p {
+  margin-bottom: 3rem;
+}
+
+.competencies__cards--card span svg {
+  vertical-align: middle;
+  width: 3rem;
+  fill: var(--primary);
+}
+
+
+
+
+
+/*---------- Medals ----------*/
+
+.medals {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8rem;
+}
+
+.medals__medal {
+  text-align: center;
+}
+
+.medals__medal p  {
+  margin-bottom: 1rem;
+}
+
+.medals__medal img {
+  width: 7rem;
+}
+
+
+
+
+
+/*---------- Profile ----------*/
+
+.profile {
+  margin-bottom: 12rem;
+}
+
+.profile h4 {
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 7rem;
+  font-size: 2.4rem;
+}
+
+.profile__conceptsLeft section,
+.profile__conceptsRight section {
+  margin-bottom: 8rem;
+}
+
+.profile__conceptsContainer h5 {
+  font-size: var(--subtitle);
+  color: var(--primary);
+  font-weight: 400;
+  border-bottom: .2rem solid var(--primary);
+  padding-bottom: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.profile__conceptsLeft section :not(h5),
+.profile__conceptsRight section :not(h5) {
+  line-height: var(--paragraphs);
+}
+
+
+
+
+
+/*---------- Chess ----------*/
+
+.medalsChess {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.5rem;
+}
+
+.medalsChess .medals {
+  justify-content: space-around;
+}
+
+.medalsChess__title h6 {
+  font-size: 6.4rem;
+  color: var(--primary);
+  text-align: end;
+}
+
+
+
+
+

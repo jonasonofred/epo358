@@ -1,0 +1,261 @@
+@import '../main.css';
+
+
+
+
+
+/*---------- Container ----------*/
+
+.container {
+  padding: 1rem;
+  margin: 0 auto;
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- About ----------*/
+
+.about {
+  margin-bottom: 10rem;
+  line-height: var(--paragraphs);
+}
+
+.about h2{
+  color: var(--primary);
+  margin-bottom: 7rem;
+  text-align: center;
+}
+
+.about .about__meaning div:first-child {
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+/*---------- Beginning ----------*/
+
+.beginning {
+  margin-bottom: 5rem;
+}
+
+.beginning__title {
+  margin-bottom: 10rem;
+}
+
+.beginning__title figure {
+  display: none;
+}
+
+.beginning h3 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 2.4rem;
+}
+
+.beginning__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beginning__cards section {
+  max-width: 30rem;
+  margin-bottom: 10rem;
+  text-align: justify;
+}
+
+.beginning__cards section p {
+  line-height: var(--paragraphs);
+}
+
+.beginning__cards__imgContainer {
+  height: 23rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: .1rem .1rem .9rem .1rem black;
+}
+
+.beginning__cards__imgContainer img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.beginning__cards__imgContainer figcaption {
+  margin: 1rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+
+
+
+/*---------- Values ----------*/
+
+.values {
+  margin-bottom: 13rem;
+  line-height: var(--paragraphs);
+  text-align: justify;
+}
+
+.values__misionVision section {
+  margin-bottom: 8rem;
+}
+
+.values section h3 {
+  font-size: 2.4rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.values__description {
+  margin-bottom: 10rem;
+}
+
+.values__itemsContainer {
+  text-align: center;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.values__itemsContainer img {
+  width: 8rem;
+}
+
+
+
+
+
+/*---------- Logo Meaning ----------*/
+
+.logoMeaning {
+  line-height: var(--paragraphs);
+  text-align: justify;
+  margin-bottom: 13rem;
+}
+
+.logoMeaning__title {
+  margin-bottom: 8rem;
+}
+
+.logoMeaning__title figure {
+  display: none;
+}
+
+.logoMeaning h4 {
+  font-size: 2.4rem;
+  color: var(--secondary);
+  text-align: center;
+}
+
+.logoMeaning__logoContainer {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.logoMeaning__logoContainer img {
+  width: 25rem;
+}
+
+.logoMeaning__meaningWolf {
+  margin-bottom: 6rem;
+}
+
+.logoMeaning__symbols {
+  margin-bottom: 3rem;
+}
+
+.symbol__transform {
+  margin-bottom: 6rem;
+}
+
+.logoMeaning__symbols figure {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.logoMeaning__symbols img {
+  width: 14rem;
+}
+
+
+
+
+
+/*---------- Wolf Code ----------*/
+
+.wolfCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 14rem;
+}
+
+.wolfCode__title {
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+.wolfCode__title figure {
+  display: none;
+}
+
+.wolfCode h5 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 2.4rem;
+}
+
+.wolfCode__itemsLeft {
+  margin-bottom: 2rem;
+}
+
+.wolfCode__itemsLeft,
+.wolfCode__itemsRight {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wolfCode__itemsLeft svg,
+.wolfCode__itemsRight svg {
+  vertical-align: middle;
+  width: 3rem;
+  fill: var(--primary);
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 12.5rem;
+}
+
+
+
+
+

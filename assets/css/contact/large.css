@@ -1,0 +1,30 @@
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+.contact__title h2 {
+  text-align: start;
+}
+
+
+
+
+
+/*---------- Map ----------*/
+
+
+.contact__mapContainer .contact--map {
+  height: 65rem;
+  max-width: none;
+}
+
+
+
+
+
