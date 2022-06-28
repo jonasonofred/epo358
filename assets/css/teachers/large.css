@@ -4,6 +4,22 @@
 
 
 
+/*---------- Header ----------*/
+
+header {
+  height: 45rem;
+}
+
+header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+
+
+
+
 /*---------- Container ----------*/
 
 .container {
@@ -100,6 +116,30 @@
 
 .teachers-profileContainer p:nth-child(2) {
   margin-bottom: 10px;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+
+  header {
+    height: 50rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+  header {
+    height: 55rem;
+  }
+
 }
 
 

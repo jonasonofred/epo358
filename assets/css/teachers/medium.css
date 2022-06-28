@@ -4,6 +4,32 @@
 
 
 
+/*---------- Header ----------*/
+
+header {
+  height: 40rem;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+.header__navBar img {
+  width: 6rem;
+}
+
+header nav svg {
+  width: 6rem;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+
+
+
 /*---------- Container ----------*/
 
 .container {
@@ -94,6 +120,29 @@
 
 .teachers-profileContainer p:nth-child(2) {
   margin-bottom: 10px;
+}
+
+
+
+
+
+/*---------- Footer ----------*/
+
+.footer__contactNumbers {
+  max-width: 80rem;
+  margin: 0 auto 5rem;
+}
+
+.footer__socialMedia {
+  margin-bottom: 5rem;
+}
+
+.footer__logo {
+  margin-bottom: 5rem;
+}
+
+.footer__logo figure img {
+  width: 10rem;
 }
 
 

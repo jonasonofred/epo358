@@ -1,3 +1,30 @@
+function scrollMenu() {
+
+
+  let media = document.documentElement.scrollTop;
+
+  if ( media >= 150 ) {
+
+    document.getElementById('iconMenuMobile').style.fill = 'black';
+    
+  } else {
+    document.getElementById('iconMenuMobile').style.fill = 'white';
+  }
+
+};
+
+
+function showMenu() {
+
+  let element = document.getElementById('navMenu');
+
+  let menu = element.classList;
+
+  menu.toggle('toggleMenu');
+
+}
+
+
 function circle() {
 
   window.scrollTo({
@@ -6,6 +33,10 @@ function circle() {
   })
 
 }
+
+document.addEventListener('scroll', scrollMenu);
+
+document.getElementById('iconMenuMobile').addEventListener('click', showMenu);
 
 document.getElementById('prba').addEventListener('click', circle);
 

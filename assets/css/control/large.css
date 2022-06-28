@@ -8,6 +8,22 @@ hr {
 
 
 
+/*---------- Header ----------*/
+
+header {
+  height: 45rem;
+}
+
+header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+
+
+
+
 /*---------- Calendar & Document----------*/
 
 .calendarDocument {
@@ -56,6 +72,30 @@ hr {
 .mige__logo img {
   width: 17rem;
   height: fit-content;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+
+  header {
+    height: 50rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+  header {
+    height: 55rem;
+  }
+
 }
 
 

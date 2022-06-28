@@ -8,6 +8,32 @@
 
 
 
+/*---------- Header ----------*/
+
+header {
+  height: 25rem;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+.header__navBar img {
+  width: 6rem;
+}
+
+header nav svg {
+  width: 6rem;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+
+
+
 /*---------- Hero ----------*/
 
 .hero__title figcaption {
@@ -23,6 +49,40 @@
   width: 24rem;
 }
 
+
+
+
+
+/*---------- Footer ----------*/
+
+.footer__contactNumbers {
+  max-width: 80rem;
+  margin: 0 auto 5rem;
+}
+
+.footer__socialMedia {
+  margin-bottom: 5rem;
+}
+
+.footer__logo {
+  margin-bottom: 5rem;
+}
+
+.footer__logo figure img {
+  width: 10rem;
+}
+
+
+
+
+
+@media (min-width: 600px) {
+
+  header {
+    height: 30rem;
+  }
+
+}
 
 
 

@@ -10,6 +10,70 @@
 
 
 
+/*---------- Header ----------*/
+
+header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 1.5rem 0 0 7rem;
+
+}
+
+header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+header nav a {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+
+
+
+
 /*---------- Academician Articles ----------*/
 
 .academician {
@@ -37,6 +101,77 @@
 .academician article button:hover {
   transform: scale(1.1);
   background-color: var(--secondary);
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  header {
+    height: 65rem;
+  }
+
+}
+
+
+
+
+
+/*---------- Footer ----------*/
+
+footer {
+  max-width: 190rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.footer__contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.footer__contactNumbers {
+  max-width: none;
+  width: 25rem;
+  margin: 0;
+}
+
+.contactNumbers__numbers {
+  justify-content: space-between;
+}
+
+.footer__socialMedia {
+  margin: 0;
+}
+
+.footer__socialMedia--title {
+  margin-bottom: 4rem;
+}
+
+.footer__socialMedia svg {
+  width: 4rem;
+}
+
+.footer__logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.footer__copyright {
+  text-align: initial;
 }
 
 
