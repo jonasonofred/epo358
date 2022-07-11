@@ -1,0 +1,111 @@
+/*---------- Header ----------*/
+
+.header {
+  height: 35rem;
+}
+
+.header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+
+
+
+
+/*---------- Cards ----------*/
+
+.cards {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.cards__section {
+  margin-bottom: 13rem;
+}
+
+
+
+
+
+/*---------- Video Intro ----------*/
+
+.videoIntro {
+  margin-bottom: 20rem;
+}
+
+.videoIntro__container {
+  margin-bottom: 8rem;
+}
+
+.videoIntro section {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  margin-bottom: 20rem;
+}
+
+
+
+
+
+/*---------- Reason ----------*/
+
+.reason__container {
+  max-width: 64rem;
+  margin: 0 auto 20rem;
+}
+
+
+
+
+
+/*---------- Icons Plus ----------*/
+
+.iconsPlus {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondary);
+  height: 15rem;
+  color: var(--white)
+}
+
+
+
+
+
+
+@media (min-width: 800px) {
+
+  .header {
+    height: 40rem;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .header {
+    height: 45rem;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .header {
+    height: 50rem;
+  }
+
+}

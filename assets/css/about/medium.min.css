@@ -1,0 +1,172 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header {
+  height: 40rem;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+}
+
+.header__navBar img {
+  width: 6rem;
+}
+
+.header nav svg {
+  width: 6rem;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+
+
+
+/*---------- About ----------*/
+
+.about__meaning {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about h2 {
+  text-align: left;
+}
+
+.about .about__meaning div:first-child {
+  margin-bottom: 0;
+  border-right: .3rem solid var(--primary);
+}
+
+.about__meaning--right {
+  padding-top: 5rem;
+}
+
+.about__meaning--left {
+  padding-right: 1.5rem;
+}
+
+.about__meaning div {
+  width: 30rem;
+}
+
+
+
+
+
+/*---------- Beginning ----------*/
+
+.beginning__cards {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.beginning__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beginning__title figure {
+  display: inline;
+  position: absolute;
+  left: -1rem;
+}
+
+.beginning__title img {
+  width: 5rem;
+}
+
+.beginning__cardsTwo {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+}
+
+
+
+
+
+/*---------- Values ----------*/
+
+.values__misionVision {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.values__misionVision section {
+  width: 30rem;
+  margin: 0;
+}
+
+
+
+
+
+/*---------- Logo Meaning ----------*/
+
+.logoMeaning__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoMeaning__title figure {
+  display: inline;
+  position: absolute;
+  left: -1rem;
+}
+
+.logoMeaning__title img {
+  width: 5rem;
+}
+
+
+
+
+
+/*---------- Wolf Code ----------*/
+
+.wolfCode__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wolfCode__title figure {
+  display: inline;
+  position: absolute;
+  left: -1rem;
+}
+
+.wolfCode__title img {
+  width: 5rem;
+}
+
+.wolfCode__itemsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+

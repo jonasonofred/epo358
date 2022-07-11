@@ -1,0 +1,59 @@
+/*---------- Header ----------*/
+
+.header {
+  height: 45rem;
+}
+
+.header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+
+
+
+
+/*---------- Academician Documents ----------*/
+
+.academician article button {
+  align-self: flex-start;
+}
+
+.academician article .academician--title {
+  font-size: 2rem;
+}
+
+.academician__asideContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.academician__asideContainer hr {
+  height: 10rem;
+  align-self: center;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+
+  .header {
+    height: 50rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+  .header {
+    height: 55rem;
+  }
+
+}

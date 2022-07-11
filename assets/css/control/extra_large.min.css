@@ -1,0 +1,203 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  margin-bottom: 8rem;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+.header__container h1 {
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+
+/*---------- Calendar & Document----------*/
+
+.calendarDocument {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.calendarContainer {
+  width: 80%;
+  max-width: 100rem;
+}
+
+.documentsContainer {
+  height: 70rem;
+  width: 63rem;
+}
+
+.documentsContainer div {
+  height: 50rem;
+  overflow-y: scroll;
+  border-bottom: .1rem solid var(--primary);
+
+}
+
+.documentsContainer div p a:hover {
+  color: var(--primary);
+}
+
+
+
+
+
+/*---------- BGeneral ----------*/
+
+.bgeneralContainer>h2 {
+  font-size: 2.4rem;
+}
+
+
+
+
+
+/*---------- MIGE ----------*/
+
+.buttonArea--imgContainer {
+  text-align: center;
+}
+
+.buttonArea--imgContainer figure {
+  display: block;
+}
+
+.buttonArea--imgContainer img {
+  width: 100%;
+}
+
+.buttonArea--buttons {
+  justify-content: center;
+  gap: 20rem;
+}
+
+.buttonArea--buttons button:hover {
+  background-color: rgba(118, 43, 133, 0.9);
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+
+
+
+
+/*---------- Social Security ----------*/
+
+.socialSecurity a:hover {
+  color: var(--primary);
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

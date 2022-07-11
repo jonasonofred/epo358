@@ -1,0 +1,149 @@
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header {
+  height: 60rem;
+}
+
+.header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+.header__container h1 {
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+
+.contact__title h2 {
+  text-align: start;
+}
+
+
+
+
+
+/*---------- Map ----------*/
+
+.contact__mapContainer .contact--map {
+  height: 65rem;
+  max-width: none;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

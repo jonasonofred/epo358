@@ -1,0 +1,277 @@
+.mainContent {
+  margin: 0 auto 35;
+  max-width: 192rem;
+  padding: 0;
+} 
+
+/*---------- Header ----------*/
+
+.header {
+  height: 55rem;
+}
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+
+
+
+
+/*---------- Container ----------*/
+
+.container {
+  max-width: 190rem;
+}
+
+
+
+
+
+/*---------- Hero ----------*/
+
+.hero {
+  margin-bottom: 20rem;
+}
+
+.hero__social {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 150rem;
+}
+
+.hero__tittle--image {
+  max-width: 56rem;
+  margin-bottom: 5rem;
+}
+
+.hero__socialMediaOne--logos figure {
+  transition: transform 200ms ease-in-out;
+}
+
+.hero__socialMediaOne--logos figure:hover {
+  transform: scale(1.1) translateY(-1rem);
+}
+
+.hero__logo img {
+  width: 40rem;
+}
+
+.hero__socialMediaTwo figure {
+  transition: transform 200ms ease-in-out;
+}
+
+.hero__socialMediaTwo figure:hover {
+  transform: scale(1.1) translateY(-1rem);
+}
+
+.hero__title figcaption {
+  font-size: var(--subtitle);
+}
+
+
+
+
+
+/*---------- Cards ----------*/
+
+.cards {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cards__section {
+  transition: transform 200ms ease-in-out;
+}
+
+.cards__section:hover {
+  transform: scale(1.1) translateY(-1rem);
+}
+
+
+
+
+
+/*---------- Video Intro ----------*/
+
+.videoIntro {
+  display: flex;
+  /* gap: 4rem; */
+  justify-content: space-around;
+}
+
+.videoIntro__container {
+  margin: 0;
+  width: 40%;
+  max-width: 68rem;
+}
+
+.videoIntro section {
+  width: 50%;
+  max-width: 70rem;
+  align-self: center;
+  margin: 0;
+}
+
+.videoIntro section h3 {
+  text-align: initial;
+}
+
+
+
+
+
+/*---------- Reason ----------*/
+
+.reason__container {
+  margin: 0 0 20rem;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center; */
+
+  position: relative;
+}
+
+.reason__container figure {
+  position: absolute;
+}
+
+.reason__container img {
+  display: block;
+  width: 5rem;
+}
+
+.reason__container .reason {
+  width: 70%;
+  max-width: 75rem;
+  align-self: flex-end;
+}
+
+.reason__container .reason h4 {
+  text-align: initial;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  /*---------- Panoramic ----------*/
+
+  .panoramic {
+    height: 35rem;
+  }
+
+
+
+
+
+  /*---------- Icons Plus ----------*/
+
+  .iconsPlus {
+    height: 25rem;
+
+  }
+
+  .iconsPlus .icon {
+    transform: scale(1.2);
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

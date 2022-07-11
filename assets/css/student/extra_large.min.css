@@ -1,0 +1,6 @@
+/*---------- Profile ----------*/
+
+.profile__conceptsContainer {
+  display: flex;
+  gap: 20rem;
+}

@@ -1,0 +1,210 @@
+.container {
+  padding: 5rem;
+}
+
+hr {
+  margin-bottom: 20rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+.header__container h1 {
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+
+/*---------- Facilities ----------*/
+
+.facilities__description--firstImage,
+.facilities__description section {
+  margin: 0;
+}
+
+.facilities {
+  margin-bottom: 20rem;
+  max-width: 130rem;
+}
+
+.facilities__description {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.facilities__description h2 {
+  display: none;
+}
+
+.facilities__description--firstImage img {
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__description--firstImage img:hover {
+  transform: scale(1.1);
+}
+
+.facilities__description section {
+  max-width: 62rem;
+}
+
+.facilities__description section h2,
+.facilities__description--logo {
+  display: block;
+}
+
+.facilities__description section h2 {
+  text-align: start;
+}
+
+.facilities__description--logo img {
+  width: 16rem;
+}
+
+.facilities__images {
+  width: 100%;
+  justify-content: space-between;
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__images:hover {
+  transform: translateY(-1rem);
+}
+
+.facilities__images picture {
+  transition: transform 300ms ease-in-out;
+}
+
+.facilities__images picture:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 30rem;
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.panoramic__text {
+  width: 55rem;
+  height: 20rem;
+  text-align: center;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

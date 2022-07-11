@@ -1,0 +1,316 @@
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+hr {
+  margin-bottom: 20rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+.header__container h1 {
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+
+/*---------- Pregnancy ----------*/
+
+.pregnancy {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 19rem;
+}
+
+.pregnancy article {
+  width: 70%;
+  max-width: 90rem;
+  margin: 0;
+}
+
+
+.pregnancy__description {
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/*---------- Addictions ----------*/
+
+.addictions {
+  margin-bottom: 20rem;
+}
+
+.addictions__header {
+  margin-bottom: 9rem;
+}
+
+.addictions__header h2 {
+  font-size: 2.4rem;
+  width: 100%;
+}
+
+.addictions__textImage {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+
+.addictions__textImage--description {
+  width: 50%;
+  max-width: 89rem;
+}
+
+.addictions__textImage figure {
+  display: inline;
+}
+
+.addictions__textImage img {
+  width: 70%;
+  max-width: 33rem;
+  border-radius: 1rem;
+}
+
+.addictions__videoContainer {
+  flex-direction: row;
+  gap: 10rem;
+  justify-content: center;
+}
+
+.addictions__video {
+  display: block;
+  width: 80rem;
+  height: 40rem;
+}
+
+.addictions__video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.addictions__textDescription {
+  width: 40%;
+}
+
+
+
+
+
+/*---------- Construye-T ----------*/
+
+.constrT {
+  margin-bottom: 20rem;
+}
+
+.constrT__header {
+  margin-bottom: 9rem;
+}
+
+.constrT__header h2 {
+  font-size: 2.4rem;
+  margin-bottom: 9rem;
+}
+
+.constrT__imageContainer {
+  max-width: 144rem;
+  margin: 0 auto 15rem;
+}
+
+.constrT__imageText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.constrT__imageText--description {
+  width: 60%;
+  max-width: 80rem;
+}
+
+.constrT__imageContainer p {
+  margin: 0;
+}
+
+.constrT__imageText--description p:first-child {
+  margin-bottom: 6rem;
+}
+
+.constrT__imageText figure {
+  display: block;
+  width: 30%;
+  max-width: 46rem;
+}
+
+.constrT__imageText img {
+  width: 100%;
+}
+
+.constrT__videoContainer {
+  flex-direction: row;
+  gap: 10rem;
+  justify-content: center;
+}
+
+.constrT__video {
+  width: 80%;
+  max-width: 79rem;
+  height: 40rem;
+}
+
+.constrT__video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.constrT__videoDescription {
+  width: 50%;
+}
+
+.constrT__final {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.scholarschips--spaceDown {
+  margin-bottom: 25rem;
+}
+
+/*---------- Scholarships ----------*/
+
+.scholarships__objetive,
+.scholarships__requirements {
+  margin: 0 auto 7rem;
+  width: 53rem;
+}
+
+.scholarships button:hover {
+  background-color: rgba(7, 72, 52, 0.9);
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+  .scholarships__centerArea {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

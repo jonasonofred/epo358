@@ -1,0 +1,41 @@
+:root {
+  --primary: #be9217;
+  --secondary: #4190dd;
+  --position-teachers: #ed2947;
+  --white: #ffffff;
+  --black: #000000;
+  --sizeParagraphs: 1.4rem;
+  --paragraphs: 2.8rem;
+  --subtitle: 1.8rem;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+}
+
+.circle {
+  position: fixed;
+  width: 6rem;
+  border-radius: 100%;
+  background-color: #ffffff;
+  cursor: pointer;
+  right: 2%;
+  bottom: 2%;
+  fill: var(--primary);
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,51 @@
+/* Actualmente no se esta usando, son estilos que pueden utilizarse más adelante. */
+
+.footer {
+  max-width: 190rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.footer__contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.footer__contactNumbers {
+  max-width: none;
+  width: 25rem;
+  margin: 0;
+}
+
+.contactNumbers__numbers {
+  justify-content: space-between;
+}
+
+.footer__socialMedia {
+  margin: 0;
+}
+
+.footer__socialMedia--title {
+  margin-bottom: 4rem;
+}
+
+.footer__socialMedia svg {
+  width: 4rem;
+}
+
+.footer__logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.footer__copyright {
+  text-align: initial;
+}
+
+
+
+
+

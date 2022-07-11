@@ -1,0 +1,107 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header {
+  height: 30rem;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+}
+
+.header__navBar img {
+  width: 6rem;
+}
+
+.header nav svg {
+  width: 6rem;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+
+
+
+/*---------- Calendar & Document----------*/
+
+.documentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.documentsContainer--title {
+  margin: 0;
+}
+
+
+
+
+
+/*---------- BGeneral ----------*/
+
+.bgeneralContainer h2::before {
+  content: '- ';
+}
+
+.bgeneralContainer h2::after {
+  content: ' -';
+}
+
+
+
+
+
+/*---------- MIGE ----------*/
+
+.migeContainer {
+  margin-bottom: 20rem;
+}
+
+.mige__logo {
+  text-align: center;
+}
+
+.mige__logo img {
+  width: 50%;
+}
+
+
+
+
+
+/*---------- Size Background Header ----------*/
+
+@media (min-width: 590px) {
+
+  .header {
+    height: 35rem;
+  }
+
+}
+
+@media (min-width: 690px) {
+
+  .header {
+    height: 40rem;
+  }
+
+}
+
+
+
+
+

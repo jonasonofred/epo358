@@ -1,0 +1,275 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 5rem;
+  max-width: 190rem;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header nav svg,
+.nav__container--title,
+.navContainer figure {
+  display: none;
+}
+
+.header__navBar img {
+  margin: 2rem 0 0 7rem;
+  width: 8rem;
+}
+
+.header nav {
+  display: block;
+  position: initial;
+  right: initial;
+  transition: none;
+  margin: 3rem 4rem 0 0;
+}
+
+.header .navContainer {
+  position: initial;
+  overflow: initial;
+  background: none;
+  height: initial;
+  padding: 0;
+  width: initial;
+  box-shadow: none;
+}
+
+.navContainer ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navContainer ul li {
+  border: none;
+  margin: 0;
+  height: 5rem;
+}
+
+.header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: transform 200ms ease-in-out;
+}
+
+.navContainer ul li:hover a {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  transform: translateY(-1rem);
+}
+
+.header__container h1 {
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+
+main {
+  max-width: none;
+  margin: 0;
+}
+
+
+
+
+
+/*---------- About ----------*/
+
+.about__meaning div {
+  width: 100%;
+}
+
+
+
+
+
+/*---------- Beginning ----------*/
+
+.beginning {
+  margin-bottom: 20rem;
+}
+
+.beginning__cards {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.beginning__cards figure,
+.beginning__cardsTwo figure {
+  transition: transform 300ms ease-in-out;
+}
+
+
+.beginning__cards figure:hover,
+.beginning__cardsTwo figure:hover {
+  transform: translateY(-1rem) scale(1.1);
+}
+
+.beginning__cardsTwo {
+  justify-content: space-around;
+}
+
+
+
+
+
+/*---------- Values ----------*/
+
+.values__misionVision {
+  justify-content: space-around;
+  gap: 10rem;
+}
+
+.values__misionVision section {
+  width: 50rem;
+}
+
+.values__itemsContainer figure {
+  transition: transform 300ms ease-in-out;
+}
+
+.values__itemsContainer figure img {
+  transition: transform 400ms ease-out;
+  transform-style: preserve-3d;
+}
+
+.values__itemsContainer figure:hover {
+  transform: translateY(-1rem);
+}
+
+.values__itemsContainer figure:hover img {
+  transform: rotateY(160deg);
+}
+
+
+
+
+
+/*---------- Logo Meaning ----------*/
+
+.logoMeaning__logoContainer img {
+  transition: transform 400ms ease-in-out;
+}
+
+.logoMeaning__logoContainer img:hover {
+  transform: translateY(-1rem);
+}
+
+.logoMeaning__symbols {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.symbol__book,
+.symbol__transform {
+  width: 40%;
+  min-height: 30rem;
+  max-width: 60rem;
+  border: .1rem solid var(--primary);
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 2rem 2rem .5rem var(--primary);
+}
+
+.symbol__book figure,
+.symbol__transform figure {
+  margin-bottom: 1rem;
+}
+
+.symbol__transform {
+  margin: 0;
+  transition: transform 100ms ease-out;
+}
+
+.symbol__transform:hover {
+  transform: translateX(2rem);
+}
+
+.symbol__transform img {
+  width: 7rem;
+}
+
+.symbol__book img {
+  width: 10rem;
+}
+
+.symbol__book {
+  transition: transform 100ms ease-out;
+}
+
+.symbol__book:hover {
+  transform: translateX(-2rem);
+}
+
+
+
+
+
+/*---------- Wolf Code ----------*/
+
+.wolfCode {
+  max-width: 77rem;
+  margin: 0 auto 30rem;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 60rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .header {
+    height: 65rem;
+  }
+
+  .header nav a {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
+
+

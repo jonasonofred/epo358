@@ -1,0 +1,103 @@
+.container {
+  padding: 3rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.header {
+  height: 30rem;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+}
+
+.header__navBar img {
+  width: 6rem;
+}
+
+.header nav svg {
+  width: 6rem;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+
+
+
+/*---------- Pregnancy ----------*/
+
+.pregnancy article {
+  margin-bottom: 10rem;
+}
+
+.pregnancy__imageText {
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pregnancy__imageText img {
+  width: 15rem;
+}
+
+
+
+
+
+/*---------- Addictions ----------*/
+
+.addictions__textImage {
+  margin-bottom: 5rem;
+}
+
+.addictions__video {
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+/*---------- Scholarships ----------*/
+
+.scholarships__logo {
+  text-align: center;
+}
+
+.scholarships__logo img {
+  width: 70%;
+}
+
+
+
+
+
+@media (min-width: 590px) {
+
+  .header {
+    height: 35rem;
+  }
+
+}
+
+@media (min-width: 690px) {
+
+  .header {
+    height: 40rem;
+  }
+
+}
+
+
+
+
+

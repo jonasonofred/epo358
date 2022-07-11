@@ -1,0 +1,316 @@
+/*---------- Container ----------*/
+
+.container {
+  padding: 1rem;
+  font-size: var(--sizeParagraphs);
+  margin: 0 auto 10rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.containerHeader {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 192rem;
+}
+
+.header {
+  margin-bottom: 5rem;
+  height: 20rem;
+  position: relative;
+}
+
+.header__container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.header__background {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.header__background img {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  z-index: 2;
+  bottom: 1.4rem;
+  color: var(--white);
+  margin-left: 1.5rem;
+}
+
+.header--lineEdomex {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/*---------- Header Menu ----------*/
+
+.header__navBar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+}
+
+.header__navBar img {
+  margin: 1.5rem 0 0 1rem;
+  width: 5rem;
+  z-index: 2;
+}
+
+.header nav {
+  display: flex;
+  position: fixed;
+  right: -22rem;
+  transition: right 400ms ease-out;
+}
+
+.header nav svg {
+  margin: 1rem 2rem 0 0;
+}
+
+.header .navContainer {
+  position: static;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 2;
+  height: 100vh;
+  padding: 3rem 1rem 1rem;
+  width: 20rem;
+  box-shadow: .1rem 0 .8rem;
+}
+
+.nav__container--title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: .2rem solid var(--primary);
+}
+
+.header nav ul {
+  margin-bottom: 5rem;
+}
+
+.header nav li {
+  margin-bottom: 3rem;
+  border-bottom: .1rem solid var(--primary);
+}
+
+.header nav a {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: normal;
+  display: block;
+  height: 3rem;
+}
+
+.navContainer figure {
+  text-align: center;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+/*---------- Show Menu ----------*/
+
+.header .toggleMenu {
+  position: fixed;
+  transition: right 400ms ease-out;
+  right: .1px;
+}
+
+
+
+
+
+/*---------- Competencies ----------*/
+
+.competencies {
+  margin-bottom: 12rem;
+}
+
+.competencies__title figure {
+  display: none;
+}
+
+.competencies__title {
+  margin-bottom: 8rem;
+  color: var(--secondary);
+}
+
+.competencies__title h2 {
+  text-align: center;
+}
+
+.competencies__cards--card {
+  border-bottom: .2rem solid var(--primary);
+  padding-bottom: 1.8rem;
+  margin-bottom: 10rem;
+}
+
+.competencies__cards--card h3 {
+  color: var(--primary);
+  font-size: var(--subtitle);
+  margin-bottom: 6rem;
+}
+
+.competencies__cards--card p {
+  margin-bottom: 3rem;
+}
+
+.competencies__cards--card span svg {
+  vertical-align: middle;
+  width: 3rem;
+  fill: var(--primary);
+}
+
+
+
+
+
+/*---------- Medals ----------*/
+
+.medalsContainer--title {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+}
+
+.medals {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8rem;
+}
+
+.medals__medal {
+  text-align: center;
+}
+
+.medals__medal p {
+  margin-bottom: 1rem;
+}
+
+.medals__medal img {
+  width: 7rem;
+}
+
+.medalsChess__logoMedal {
+  display: none;
+}
+
+
+
+
+
+/*---------- Profile ----------*/
+
+.profile {
+  margin-bottom: 12rem;
+}
+
+.profile h4 {
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 7rem;
+  font-size: 2.4rem;
+}
+
+.profile__conceptsLeft section,
+.profile__conceptsRight section {
+  margin-bottom: 8rem;
+}
+
+.profile__conceptsContainer h5 {
+  font-size: var(--subtitle);
+  color: var(--primary);
+  font-weight: 400;
+  border-bottom: .2rem solid var(--primary);
+  padding-bottom: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.profile__conceptsLeft section :not(h5),
+.profile__conceptsRight section :not(h5) {
+  line-height: var(--paragraphs);
+}
+
+
+
+
+
+/*---------- Chess ----------*/
+
+.medalsChess {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.5rem;
+}
+
+.medalsChess .medals {
+  justify-content: space-around;
+}
+
+.medalsChess__title h6 {
+  font-size: 6.4rem;
+  color: var(--primary);
+  text-align: end;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 12.5rem;
+}
+
+
+
+
+
+/*---------- Size Background Header ----------*/
+
+@media (min-width: 400px) {
+
+  .header {
+    height: 25rem;
+  }
+
+}
+
+
+
+
+

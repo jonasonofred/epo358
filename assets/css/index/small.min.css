@@ -1,0 +1,377 @@
+/*---------- Container & General ----------*/
+
+.mainContent {
+  padding: 1rem;
+  margin: 0 auto 15rem;
+}
+
+
+
+
+
+/*---------- Header ----------*/
+
+.containerHeader {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 192rem;
+}
+
+.header {
+  margin-bottom: 5rem;
+  height: 18rem;
+  position: relative;
+}
+
+.header__container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.header__background {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.header__background img {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  z-index: 2;
+  bottom: 1.4rem;
+  color: var(--white);
+  margin-left: 1.5rem;
+}
+
+.header--lineEdomex {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/*---------- Header Menu ----------*/
+
+.header__navBar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+}
+
+.header__navBar img {
+  margin: 1.5rem 0 0 1rem;
+  width: 5rem;
+  z-index: 2;
+}
+
+.header nav {
+  display: flex;
+  position: fixed;
+  right: -22rem;
+  transition: right 400ms ease-out;
+}
+
+.header nav svg {
+  margin: 1rem 2rem 0 0;
+}
+
+.header .navContainer {
+  position: static;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 2;
+  height: 100vh;
+  padding: 3rem 1rem 1rem;
+  width: 20rem;
+  box-shadow: .1rem 0 .8rem;
+}
+
+.nav__container--title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: .2rem solid var(--primary);
+}
+
+.header nav ul {
+  margin-bottom: 5rem;
+}
+
+.header nav li {
+  margin-bottom: 3rem;
+  border-bottom: .1rem solid var(--primary);
+}
+
+.header nav a {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: normal;
+  display: block;
+  height: 3rem;
+}
+
+.navContainer figure {
+  text-align: center;
+}
+
+.navContainer img {
+  width: 10rem;
+}
+
+
+/*---------- Show Menu ----------*/
+
+.header .toggleMenu {
+  position: fixed;
+  transition: right 400ms ease-out;
+  right: .1px;
+}
+
+
+
+
+
+/*---------- Hero ----------*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+  gap: 6rem;
+}
+
+.hero__tittle--image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero__title figcaption {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.hero__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.hero__socialMediaOne {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 22.0rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.hero__socialMediaOne--logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__socialMediaOne img {
+  width: 4rem;
+}
+
+.hero__logo img {
+  width: 25rem;
+}
+
+.hero__socialMediaTwo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.hero__socialMediaTwo img {
+  width: 7rem;
+}
+
+
+
+
+
+/*---------- Cards ----------*/
+
+.cards {
+  margin-bottom: 10rem;
+  font-size: var(--sizeParagraphs);
+}
+
+.cards__section {
+  min-height: 24rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards__section section {
+  line-height: var(--paragraphs);
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.cards__section section h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.cards__section button {
+  background-color: var(--primary);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: var(--sizeParagraphs);
+  align-self: center;
+}
+
+.cards__section button a {
+  color: var(--white);
+}
+
+
+
+
+
+/*---------- Video Intro ----------*/
+
+.videoIntro {
+  margin-bottom: 10rem;
+}
+
+.videoIntro__container {
+  margin-bottom: 2.5rem;
+}
+
+.videoIntro__container video {
+  width: 100%;
+}
+
+.videoIntro section h3 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: var(--subtitle);
+}
+
+.videoIntro section p {
+  line-height: var(--paragraphs);
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 14.5rem;
+  background: url('https://oval-stem.localsite.io/wp-content/themes/epo358/assets/images/panoramic.webp') center/cover no-repeat;
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/*---------- Reason ----------*/
+
+.reason__container {
+  margin-bottom: 10rem;
+}
+
+.reason__container img {
+  display: none;
+}
+
+.reason {
+  border-bottom: 2px solid var(--primary);
+}
+
+.reason h4 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: var(--subtitle);
+}
+
+.reason p {
+  line-height: var(--paragraphs);
+  margin-bottom: 2rem;
+  font-size: var(--sizeParagraphs);
+}
+
+
+
+
+
+/*---------- Icons Plus ----------*/
+
+.iconsPlus {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: var(--sizeParagraphs);
+}
+
+.iconsPlus .icon {
+  width: 6.8rem;
+  border-color: white;
+}
+
+
+
+
+
+/*---------- Logo ----------*/
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.logo img {
+  width: 12.5rem;
+}
+
+
+
+
+
+/*---------- Size Background Header ----------*/
+
+@media (min-width: 400px) {
+
+  .header {
+    height: 20rem;
+  }
+
+}
+
+
+
+
+

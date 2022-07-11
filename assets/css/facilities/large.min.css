@@ -1,0 +1,57 @@
+/*---------- Header ----------*/
+
+.header {
+  height: 45rem;
+}
+
+.header h1 {
+  bottom: 4rem;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
+
+
+
+
+/*---------- Facilities ----------*/
+
+.facilities__images {
+
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+
+
+
+/*---------- Panoramic ----------*/
+
+.panoramic {
+  height: 14.5rem;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+
+  .header {
+    height: 50rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+  .header {
+    height: 55rem;
+  }
+
+}
