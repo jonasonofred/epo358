@@ -3,6 +3,12 @@
 
 <main>
 
+  <article class="teachersHero">
+    <figure>
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/teachers/docentes.jpeg" alt="Imágen de los docentes de la epo 358">
+    </figure>
+  </article>
+
   <article class="program__container">
         
     <header class="program__header">

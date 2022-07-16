@@ -80,7 +80,7 @@
 
       <section>
         <h2>Instalaciones</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum amet voluptas inventore, natus ipsum, alias dolore veniam esse libero corrupti obcaecati asperiores quasi iste harum, veritatis sit fuga! Recusandae, aliquam!</p>
+        <p>Conoce las Instalaciones</p>
       </section>
 
 
@@ -91,7 +91,7 @@
     </div>
 
 
-    <div class="cards__section">
+    <!-- <div class="cards__section">
 
       <section>
         <h2>Eventos</h2>
@@ -103,7 +103,7 @@
         <a href="#">Ver más</a>
       </button>
 
-    </div>
+    </div> -->
 
 
     <div class="cards__section">
@@ -115,7 +115,7 @@
 
 
       <button>
-        <a href="#">Ver más</a>
+        <a href="<?php get_template_directory_uri(); ?>/docentes">Ver más</a>
       </button>
 
     </div>
@@ -137,8 +137,9 @@
 
 
     <section>
-      <h3>Título</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, non deleniti odio explicabo natus delectus mollitia sunt! Quos possimus non illo cumque quisquam natus quo, voluptas aspernatur, doloremque perferendis quasi.</p>
+      <h3>Lobo</h3>
+      <p>El significado lobo, fuera de lo feroz que puede ser, también es muy sociable y tiene siempre como prioridad la protección de su manada. El lobo es asociado con varias virtudes como lo son ser un animal astuto, leal, compasivo, generoso, inteligente y muy comunicativo. Símbolo de creatividad y elocuencia. Se caracteriza por su gran inteligencia, es un animal capaz de adaptarse a los cambios y sobrevivir.</p><br><br>
+      <p>El significado espiritual del lobo se relaciona también con la sabiduría, aquel que se identifica con él siempre sabe guiarse en la vida con confianza y fe en su interior, lo que le ayuda a tomar las decisiones correctas cuando malos momentos se presentan o en casos en que se sienta débil, pues tal cómo un lobo sabe qué hacer y actúa en consecuencia.</p>
     </section>
     
   </div>
@@ -179,7 +180,7 @@
       </svg>
 
 
-      <p>311 Estudientes y Creciendo</p>
+      <p>311 Estudiantes y Creciendo</p>
 
     </div>
 
@@ -203,7 +204,7 @@
       </svg>
 
 
-      <p>Estudientes</p>
+      <p>Estudiantes</p>
 
     </div>
 

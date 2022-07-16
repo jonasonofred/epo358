@@ -93,6 +93,16 @@
 
 
 
+/*---------- Shcool Community ----------*/
+
+.school__community a:hover {
+  color: var(--primary);
+}
+
+
+
+
+
 /*---------- Academician Documents ----------*/
 
 .academician__asideContainer {

@@ -16,7 +16,7 @@
 
         <h2>Área para Bicicletas</h2>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate sequi pariatur itaque atque ratione impedit ea fugit temporibus tenetur repellat. Recusandae, voluptatem architecto? Corrupti aliquid dignissimos dicta error voluptate perferendis?</p>
+        <p>Nuevas instalaciones para el área de bicicletas.</p>
 
       </section>
 
@@ -65,9 +65,7 @@
   
         <h2>Cancha de Fútbol</h2>
   
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate sequi pariatur itaque atque ratione impedit
-          ea fugit temporibus tenetur repellat. Recusandae, voluptatem architecto? Corrupti aliquid dignissimos dicta
-          error voluptate perferendis?</p>
+        <p>Nuestra nueva cancha de fútbol.</p>
   
       </section>
   

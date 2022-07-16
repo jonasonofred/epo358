@@ -1,9 +1,4 @@
 .container {
-  /*padding: 5rem;*/
-  /*max-width: 190rem;*/
-  /*display: flex;
-  justify-content: center;
-  gap: 10rem;*/
   font-size: 1.6rem;
 }
 
@@ -76,6 +71,16 @@
   background-color: white;
   border-radius: 1rem;
   padding: 1rem;
+}
+
+
+
+
+
+/*---------- Teachers Hero ----------*/
+
+.teachersHero {
+  margin-bottom: 10rem;
 }
 
 

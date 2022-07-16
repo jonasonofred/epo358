@@ -148,6 +148,10 @@ hr {
 
 /*---------- BGeneral ----------*/
 
+.bgeneralContainer {
+  margin-bottom: 3rem;
+}
+
 .bgeneralContainer>h2 {
   color: var(--secondary);
   text-align: center;
@@ -156,6 +160,31 @@ hr {
 
 .bgeneralContainer img {
   width: 100%;
+}
+
+
+
+
+
+/*---------- Shcool Community ----------*/
+
+.school__community {
+  margin-bottom: 8rem;
+}
+
+.school__community * {
+  color: var(--black);
+  text-align: center;
+}
+
+.school__community--image img {
+  width: 50%;
+  text-align: center;
+}
+
+.socialSecurity--linkArrow {
+  width: 1.6rem;
+  fill: blue;
 }
 
 

@@ -191,7 +191,7 @@
 
       <div class="buttonArea--buttons">
 
-        <button><a href="https://www.youtube.com/channel/UCLqM5lUtCqaUvt_MrxjB7KA/featured" target="_blank">Ayuda</a></button>
+        <button><a href="https://www.youtube.com/watch?v=NKZ7MInW1Og&list=PLZl-hcqbD2MR1sEBjYP06Ck9-6Aa3UFE0" target="_blank">Ayuda</a></button>
         <button><a href="https://miges.edugem.gob.mx/" target="_blank">Ingresa aquí</a></button>
 
       </div>

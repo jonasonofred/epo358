@@ -130,10 +130,6 @@
 
 
 
-
-
-
-
 /*---------- Container ----------*/
 
 .container {
@@ -148,6 +144,20 @@ hr {
 
 .container main {
   margin-bottom: 20rem;
+}
+
+
+
+
+
+/*---------- Teachers Hero ----------*/
+
+.teachersHero {
+  margin-bottom: 5rem;
+}
+
+.teachersHero img {
+  width: 100%;
 }
 
 
