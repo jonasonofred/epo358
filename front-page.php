@@ -79,13 +79,13 @@
     <div class="cards__section">
 
       <section>
-        <h2>Instalaciones</h2>
-        <p>Conoce las Instalaciones</p>
+        <h2>Alumnos</h2>
+        <p></p>
       </section>
 
 
       <button>
-        <a href="<?php get_template_directory_uri(); ?>/instalaciones">Ver más</a>
+        <a href="<?php get_template_directory_uri(); ?>/alumnos">Ver más</a>
       </button>
       
     </div>

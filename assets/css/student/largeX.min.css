@@ -185,7 +185,12 @@ main {
 
 }
 
-
+/* @media (min-width: 1400px) {
+  .pictures__container {
+    justify-content: space-between;
+    row-gap: 7  0px;
+  }
+} */
 
 
 

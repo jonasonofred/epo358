@@ -375,7 +375,77 @@
 
 
 
-  
+  <div class="pictures">
+
+    <div class="pictures--title">
+      <h5>- Nuestra Comunidad -</h5>
+    </div>
+
+    <div class="pictures__container">
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(2).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715.jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(3).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(4).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(5).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(6).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(7).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(8).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(9).jpeg" alt="">
+        </figure>
+      </div>
+
+      <div class="pictures__itemContainer">
+        <figure>
+          <img src="<?= get_template_directory_uri()?>/assets/images/student/20220715(10).jpeg" alt="">
+        </figure>
+      </div>
+
+    </div>
+
+  </div>
 
 </main>
 
